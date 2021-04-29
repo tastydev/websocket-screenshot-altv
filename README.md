@@ -27,6 +27,9 @@ write the "screenshot-ws" as a module in ur server.cfg
 6. paste the string and decode it -> voilá your first screenshot made with alt:V
 ```
 
-## Authors
+## CAUTION!!:
+```
+The alt-websocket is currently only available on dev branch and this example uses the ws protocol make sure to use the wss protocol if this feature is available on release branch!
+```
 
 * ** Alessandro Lion (t4styy)** - *Initial work* - [t4styy](https://github.com/tastydev)
