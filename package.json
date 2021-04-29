@@ -1,0 +1,23 @@
+{
+	"name": "websocket-screenshot-altv",
+	"version": "1.0.0",
+	"description": "Example alt:V Multiplayer resource for alt-websocket and alt-sceenshot api",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Alessandro Lion (t4styy)",
+	"license": "ISC",
+	"dependencies": {
+		"ws": "^7.4.5"
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"useTabs": true,
+		"singleQuote": true
+	},
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	}
+}

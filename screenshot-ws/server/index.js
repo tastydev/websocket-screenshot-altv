@@ -3,7 +3,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 process.on('uncaughtException', (err, origin) => {
-    console.log(err, origin);
+	console.log(err, origin);
 });
 
-import { WebsocketServerInstance } from './WebsocketModule.mjs'
+import { WebsocketServerInstance } from './WebsocketModule.js';

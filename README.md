@@ -6,7 +6,7 @@ This resource will send a screenshot base64 string to the server through the alt
 ### Getting Started
 1.
 ```
-Do npm install --save ws in your project
+npm install --save ws in your project
 ```
 2.
 ```
@@ -20,11 +20,9 @@ write the "screenshot-ws" as a module in ur server.cfg
 ## Example Usage:
 ```
 1. Press the F5-Key ingame
-2. You will see a screenshot directory in ur server root and a .txt file in it
+2. You will see a screenshot directory in ur server root and a .png file in it
 3. File name is alt:V Nickname + ISODate components
-4. copy the content of the generated file
-5. go to https://base64.guru/converter/decode/image/png
-6. paste the string and decode it -> voilá your first screenshot made with alt:V
+4. Voilá, enjoy ur first altv-round-tripped screenshot
 ```
 
 ## CAUTION!!:
