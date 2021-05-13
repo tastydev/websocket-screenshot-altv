@@ -31,8 +31,11 @@ The alt-websocket is currently only available on dev branch and this example use
 ```
 Ped Headshot:
 ![](screenshots/t4styy_pedheadshot_2021-05-13_04-22-30.png)
-Screnshot with CEF captured:
+
+Screenshot with CEF captured:
 ![](screenshots/t4styy_screenshot_with_ui_2021-05-13_04-22-18.png)
-Screnshot without CEF captured:
+
+Screenshot without CEF captured:
 ![](screenshots/t4styy_screenshot_without_ui_2021-05-13_04-22-40.png)
+
 * ** Alessandro Lion (t4styy)** - *Initial work* - [t4styy](https://github.com/tastydev)
