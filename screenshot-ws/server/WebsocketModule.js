@@ -15,7 +15,7 @@ class WebsocketServer {
 		alt.on('playerDisconnect', (player) => {
 			//cleanup websocket player map
 			const playerId = player.id;
-			if (!this.wsPlayerMap.has()) return;
+			if (!this.wsPlayerMap.has(playerId)) return;
 			this.wsPlayerMap.delete(playerId);
 		});
 	}
