@@ -25,10 +25,6 @@ write the "screenshot-ws" as a module in ur server.cfg
 4. Voilá, enjoy ur first altv-round-tripped screenshot
 ```
 
-## CAUTION!!:
-```
-The alt-websocket is currently only available on dev branch and this example uses the ws protocol make sure to use the wss protocol if this feature is available on release branch!
-```
 Ped Headshot:
 ![](screenshots/t4styy_pedheadshot_2021-05-13_04-22-30.png)
 
