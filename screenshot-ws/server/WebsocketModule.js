@@ -27,10 +27,10 @@ class WebsocketServer {
 			!req.headers.hasOwnProperty('playerid')
 		) {
 			//kill connection if headers missing
-			ws.close();
+			return ws.close();
 		}
 		const player = this.getPlayerForSocket(req.headers['playerid']);
-		if (!player) ws.close();
+		if (!player) return ws.close();
 		console.log(
 			'Websocket connection made for player ',
 			player.name,
