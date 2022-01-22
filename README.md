@@ -37,7 +37,7 @@ write the "screenshot-ws" as a module in ur server.cfg
 ## CAUTION!!:
 
 ```
-The alt-websocket is currently only available on dev branch and this example uses the ws protocol make sure to use the wss protocol if this feature is available on release branch!
+This example uses the ws protocol make sure to use the wss protocol if this feature is available on release branch!
 ```
 
 Ped Headshot:
