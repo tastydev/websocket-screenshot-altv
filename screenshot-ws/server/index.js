@@ -6,4 +6,4 @@ process.on('uncaughtException', (err, origin) => {
 	console.log(err, origin);
 });
 
-import { WebsocketServerInstance } from './WebsocketModule.js';
+import { WsServerInstance } from './WebsocketModule.js';

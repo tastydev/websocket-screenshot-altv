@@ -1,23 +1,32 @@
 # websocket-screenshot-altv Resource
+
 Example alt:V Multiplayer resource for alt-websocket and alt-sceenshot api
 
 This resource will send a screenshot base64 string to the server through the alt-websocket api and will save it into a screenshot directory in the server folder.
 
 ### Getting Started
+
 1.
+
 ```
 npm install --save ws in your project
+(see version used in package.json and check for compatibility if you force update)
 ```
+
 2.
+
 ```
 copy the screenshot-ws directory to ur resources
 ```
+
 3.
+
 ```
 write the "screenshot-ws" as a module in ur server.cfg
 ```
 
 ## Example Usage:
+
 ```
 1. Press the F5-Key (screenshot with cef), F4-Key (ped headshot) or F3-Key (screenshot without cef) ingame
 2. You will see a screenshot directory in ur server root and a .png file in it
@@ -26,9 +35,11 @@ write the "screenshot-ws" as a module in ur server.cfg
 ```
 
 ## CAUTION!!:
+
 ```
 The alt-websocket is currently only available on dev branch and this example uses the ws protocol make sure to use the wss protocol if this feature is available on release branch!
 ```
+
 Ped Headshot:
 ![](screenshots/t4styy_pedheadshot_2021-05-13_04-22-30.png)
 
@@ -38,4 +49,4 @@ Screenshot with CEF captured:
 Screenshot without CEF captured:
 ![](screenshots/t4styy_screenshot_without_ui_2021-05-13_04-22-40.png)
 
-* ** Alessandro Lion (t4styy)** - *Initial work* - [t4styy](https://github.com/tastydev)
+- ** Alessandro Lion (t4styy)** - _Initial work_ - [t4styy](https://github.com/tastydev)

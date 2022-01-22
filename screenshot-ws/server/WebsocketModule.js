@@ -1,11 +1,11 @@
-import WebSocket from 'ws';
+import { WebSocketServer } from 'ws';
 import * as alt from 'alt-server';
 import fs from 'fs';
 
-class WebsocketServer {
+class WsServer {
 	constructor() {
 		//init simple websocket server
-		this.wss = new WebSocket.Server({ port: 8080 });
+		this.wss = new WebSocketServer({ port: 8080 });
 		this.wsPlayerMap = new Map();
 		this.registerEvents();
 	}
@@ -125,4 +125,4 @@ class WebsocketServer {
 	}
 }
 
-export const WebsocketServerInstance = new WebsocketServer();
+export const WsServerInstance = new WsServer();

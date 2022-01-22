@@ -10,7 +10,7 @@
 	"author": "Alessandro Lion (t4styy)",
 	"license": "ISC",
 	"dependencies": {
-		"ws": "^7.4.5"
+		"ws": "^8.4.2"
 	},
 	"prettier": {
 		"tabWidth": 2,
@@ -18,6 +18,6 @@
 		"singleQuote": true
 	},
 	"devDependencies": {
-		"prettier": "^2.2.1"
+		"prettier": "^2.5.1"
 	}
 }
