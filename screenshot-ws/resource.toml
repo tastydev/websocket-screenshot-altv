@@ -1,0 +1,5 @@
+client-files = [ 'client/index.js', 'client/WebsocketModule.js', 'client/ScreenShotModule.js' ]
+client-main = 'client/index.js'
+main = 'server/index.js'
+required-permissions = [ 'Screen Capture' ]
+type = 'js'
